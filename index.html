@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/favicon.png" />
+    <link href="style.css" rel="stylesheet">
+    <title>Lava Rápido</title>
+</head>
+<body>
+
+    <header>
+        <div id="textHeader">
+            <p>lava rápido</p>
+        </div>
+        <div id="imgHeader">
+            <img src="./Img/favicon.png">
+        </div>
+    </header>
+
+    <div id="Receber">
+        <p>Valor Total a Receber: R$  </p>
+        <div id="valorReceber1">
+            <p></p>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();enviarForm()" autocomplete="off">
+                    <div>
+                        <label>Nome Completo: </label>
+                        <input type="text" name="nomeCompleto" id="nome" required>
+                    </div>
+                    <div>
+                        <label>Modelo do Carro: </label>
+                        <input type="text" name="modeloCarro" id="modeloCarro">
+                    </div>
+                    <div>
+                        <label>Placa: </label>
+                        <input type="text" name="placa" id="placa" required>
+                    </div>
+                    <div>
+                        <label>Preço da Lavagem: </label>
+                        <input type="text" name="precoLavagem" id="precoLavagem" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employList">
+                    <thead>
+                        <tr>
+                            <th>Nome Completo</th>
+                            <th>Modelo do Carro</th>
+                            <th>Placa</th>
+                            <th>Preço a Pagar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
