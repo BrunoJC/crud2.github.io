@@ -1,0 +1,124 @@
+body > table{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #0000ee;
+    height: 50px;
+    margin-bottom: 11px;
+}
+
+#textHeader{
+   
+    color: white;
+    text-align: center;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 1px;
+
+}
+
+#imgHeader img{
+    position: relative;
+    top: -49px;
+    left: 10px;
+    width: 30px;
+}
+
+#valorReceber1 {
+    position: absolute;
+    top: 88px;
+    left: 224px;
+    color: white;
+    font-size: 20px;
+}
+
+#Receber p{
+    position: relative;
+    top: 10px;
+    width: 30%;
+    font-size: 20px;
+    background-color: #0000ee;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+    
+}
+
+td{
+    border: 1px solid #808080;
+    text-align: left;
+    padding: 8px;
+    color: #0000ee;
+    font-size: 19px;
+    
+}
+
+th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color:  #808080;
+   
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    font-size: 20px;
+    background-color: #0000ee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+a img{
+    width: 30px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
